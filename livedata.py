@@ -9,8 +9,8 @@ import pytz
 from sklearn.ensemble import RandomForestClassifier
 
 # --- Telegram Config ---
-TELEGRAM_TOKEN = '7732608702:AAH2xD9H-LY50j2TGajf2mmFPqPTatAPwrc'
-TELEGRAM_CHAT_ID = '777734102'
+TELEGRAM_TOKEN = ''
+TELEGRAM_CHAT_ID = ''
 
 def send_telegram_message(message: str):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
